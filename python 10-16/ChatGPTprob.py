@@ -1,4 +1,4 @@
-'''ou are given a sorted array of integers and a target value.
+'''You are given a sorted array of integers and a target value.
 
 First, use Linear Search to find the index of the target and count the number of comparisons made.
 
