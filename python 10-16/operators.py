@@ -6,14 +6,19 @@
 
 # 2. Assignment operators
     # This includes =, +=, -=, *=. /=
-    # Walrus operator
+# Walrus operator
 numbers = [1, 2, 3, 4, 5]
 count = len(numbers)
+
+if (count:= len(numbers) > 0):
+    print("This is walrus expression")
+
 if count > 3:
     print(f"List has {count} elements")
 
 if (count := len(numbers)) > 3:
     print(f"List has {count} elements")
+
 
 # 3. comparison operators
 # 4. logical operators
