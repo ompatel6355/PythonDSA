@@ -7,17 +7,17 @@
 # 2. Assignment operators
     # This includes =, +=, -=, *=. /=
 # Walrus operator
-numbers = [1, 2, 3, 4, 5]
-count = len(numbers)
+# numbers = [1, 2, 3, 4, 5]
+# count = len(numbers)
 
-if (count:= len(numbers) > 0):
-    print("This is walrus expression")
+# if (count:= len(numbers) > 0):
+#     print("This is walrus expression")
 
-if count > 3:
-    print(f"List has {count} elements")
+# if count > 3:
+#     print(f"List has {count} elements")
 
-if (count := len(numbers)) > 3:
-    print(f"List has {count} elements")
+# if (count := len(numbers)) > 3:
+#     print(f"List has {count} elements")
 
 
 # 3. comparison operators
@@ -29,4 +29,9 @@ if (count := len(numbers)) > 3:
     # This include is, is not
     
 # 6. membership operators
+
+arr = ["Banana", "apple"]
+
+print(True) if "Banana" in arr else print(False)
+
 # 7. bitwise operators
