@@ -18,5 +18,5 @@ set2 = {"google", "microsoft", "apple"}
 # set1.intersection_update(set2)  # This will change the original set, In this we can not assign value to new set
 
 
-set3 = set1.difference(set2)
-print(set3)
+# set3 = set1.difference(set2)
+print(set1.symmetric_difference_update(set2))
